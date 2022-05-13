@@ -28,6 +28,6 @@ console.log(reverse2)
 const reverse3 = str => str.split('').reverse().join('');
 console.log(reverse3)
 
-reverse('Hi My Name is Jason')
-reverse2('Hi My Name is Jason')
-reverse3('Hi My Name is Jason')
+console.log(reverse('Hi My Name is Jason'))
+console.log(reverse2('Hi My Name is Jason'))
+console.log(reverse3('Hi My Name is Jason'))
